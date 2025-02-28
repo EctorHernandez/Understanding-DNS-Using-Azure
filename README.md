@@ -22,10 +22,15 @@ Domain Name System (DNS), is an important aspect of IT and networking. It essent
 
 <h2>DNS Configuration Steps</h2>
 
+
 <p>
-  After logging into both the client VN and the Domain Controller (DC) as admins we can begin running some commands in Command Prompt.<b />
-<img src="https://i.imgur.com/5pjgtVz.png" height="80%" width="80%" alt="DNS Steps"/>
-<img src="https://i.imgur.com/Zl04Jyt.png" height="80%" width="80%" alt="DNS Steps"/>
+After logging into both the client Virtual Machine (VM) and the Domain Controller (DC) as admins we can begin running some commands in Command Prompt.
+</p>
+<p>First thing we will do is search for "System Security" using command "ping System Security" in Command Prompt. We then observe that that it will give us an error message that it could not locate it. Now will try using the command "Nslookup System Security" to try and locate the ip address. Again it will fail and display the message "Ping request could not find host system. Please check the name and try again."</p>
+<p>The following images display what we did in these steps:</p>
+<p>
+<img src="https://i.imgur.com/irWQdSx.png" height="70%" width="70%" alt="DNS Steps"/>
+<img src="https://i.imgur.com/eST1R6g.png" height="70%" width="70%" alt="DNS Steps"/>
 <img src="https://i.imgur.com/96xUgLF.png" height="80%" width="80%" alt="DNS Steps"/>
 </p>
 <p>
