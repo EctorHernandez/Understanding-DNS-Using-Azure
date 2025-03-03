@@ -56,11 +56,6 @@ To update the cache, we use the command "ip config /flushdns". This willclear th
 <br />
 
 
-<p>
-A CNAME record will now be made on the DNS server that will point "search" to Google. On the Forward Lookup Zones tab in the DNS Manager, open the tab that has the domain. Create a new CNAME record called search and point it to Google. Refresh the server to save the changes. On the client, pinging search and using nslookup will return the results of the CNAME record.
-</p>
-<br />
-
 <h2>Summary</h2>
 
 Domain Name System (DNS) is a crucial part of the internet and computing infastructure needed for devices to communicate. DNS uses various record types, such as A, AAAA, MX, and CNAME, to provide specific information about domains. It improves efficiency through caching, reduces load on servers, and enhances speed. 
